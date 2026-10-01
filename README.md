@@ -4,13 +4,13 @@
 
 A native Mac app with a large control deck in your phone's browser. Scan the Mac's QR, approve the browser once, then return to the same saved controller to reconnect.
 
-[Download the 7-day Mac trial](https://github.com/wakeupbrk/TapDeck-Downloads/releases/tag/v0.3.1-trial.1) · [Browser controller](https://tapdeck-connect.pages.dev)
+[Download the 7-day Mac trial](https://github.com/wakeupbrk/TapDeck-Downloads/releases/tag/v0.3.2-security.1) · [Browser controller](https://tapdeck-connect.pages.dev)
 
 ![TapDeck on Mac](images/mac-deck.png)
 
 ## Install the preview
 
-1. Download **TapDeck-0.3.1-Mac.dmg** from Releases.
+1. Download **TapDeck-0.3.2-Mac.dmg** from Releases.
 2. Open it and drag TapDeck to Applications. Keep one installed copy.
 3. Open TapDeck and choose **Start or resume 7-day trial**.
 4. Choose the phone button and scan its QR with your phone's Camera.
@@ -19,6 +19,10 @@ A native Mac app with a large control deck in your phone's browser. Scan the Mac
 Both devices need internet access. The Mac must be awake with TapDeck running. macOS 14 or newer is required; Apple silicon and Intel are supported. No phone app, account registration or domain purchase is needed. Opening the bare controller address explains pairing; use the Mac's QR to connect.
 
 **Preview status:** this build is ad hoc signed and is not Apple Developer ID signed or notarized. Gatekeeper may block it. It is offered for testing, not as a finished paid product. Physical iPhone Safari/Home Screen acceptance testing also remains before production launch.
+
+## Upgrade to 0.3.2
+
+Install the 0.3.2 Mac preview and refresh your phone browser or Home Screen controller. Older Mac builds cannot reconnect to the updated relay. Saved pairing credentials and the original seven-day trial expiry are preserved. This security update prevents deleted controls from authorizing remote actions and verifies relay credentials before allocating connections.
 
 ## Seven days, one Mac
 
@@ -44,6 +48,6 @@ Use [private vulnerability reporting](https://github.com/wakeupbrk/TapDeck-Downl
 
 This repository contains only downloads, screenshots and instructions. App development source is private and is not uploaded here. GitHub's automatic source ZIP contains only this repository's documentation and images.
 
-The 0.3.1 preview is supplied under the [proprietary seven-day trial notice](LICENSE-TRIAL.txt). Earlier license grants and third-party licenses are unaffected. The old unrestricted preview is no longer offered in public Releases. Previously downloaded copies cannot be recalled or retroactively restricted. Payment and paid licensing are future work. Compiled software is not immune to reverse engineering or deliberate tampering.
+The 0.3.2 preview is supplied under the [proprietary seven-day trial notice](LICENSE-TRIAL.txt). Earlier license grants and third-party licenses are unaffected. The old unrestricted preview is no longer offered in public Releases. Previously downloaded copies cannot be recalled or retroactively restricted. Payment and paid licensing are future work. Compiled software is not immune to reverse engineering or deliberate tampering.
 
 Verify the DMG with the SHA256SUMS.txt asset in the release. Do not substitute an unofficial download.
