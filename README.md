@@ -4,20 +4,29 @@
 
 A native Mac app with a large control deck in your phone's browser. Scan the Mac's QR, approve the browser once, then return to the same saved controller to reconnect.
 
-[Download the Mac preview](https://github.com/wakeupbrk/TapDeck-Downloads/releases/tag/v0.2.0-preview.1) · [Browser controller](https://tapdeck-connect.pages.dev)
+[Download the 7-day Mac trial](https://github.com/wakeupbrk/TapDeck-Downloads/releases/tag/v0.3.0-trial.1) · [Browser controller](https://tapdeck-connect.pages.dev)
 
 ![TapDeck on Mac](images/mac-deck.png)
 
 ## Install the preview
 
-1. Download **TapDeck-0.2.0-Mac.dmg** from Releases.
+1. Download **TapDeck-0.3.0-Mac.dmg** from Releases.
 2. Open it and drag TapDeck to Applications. Keep one installed copy.
-3. Open TapDeck, choose the phone button and scan its QR with your phone's Camera.
-4. Open the link and approve the browser on your Mac. Optionally add the page to your Home Screen.
+3. Open TapDeck and choose **Start or resume 7-day trial**.
+4. Choose the phone button and scan its QR with your phone's Camera.
+5. Open the link and approve the browser on your Mac. Optionally add the page to your Home Screen.
 
 Both devices need internet access. The Mac must be awake with TapDeck running. macOS 14 or newer is required; Apple silicon and Intel are supported. No phone app, account registration or domain purchase is needed. Opening the bare controller address explains pairing; use the Mac's QR to connect.
 
 **Preview status:** this build is ad hoc signed and is not Apple Developer ID signed or notarized. Gatekeeper may block it. It is offered for testing, not as a finished paid product. Physical iPhone Safari/Home Screen acceptance testing also remains before production launch.
+
+## Seven days, one Mac
+
+The trial starts when you first activate it, not when you download it. It lasts seven consecutive days. Deleting the app, redownloading, reinstalling or clearing local data on the same Mac does not restart it. After expiry, pairing and controls lock; your saved deck remains available to export. A paid version is not available yet.
+
+Before activation, TapDeck asks permission to send an app-specific hash derived from your Mac’s hardware UUID. The raw hardware UUID is never sent. Our service retains that hash and the original activation/expiry timestamps indefinitely to prevent trial resets. Internet access is required throughout the trial; verification failures lock controls. See [Privacy](PRIVACY.md).
+
+![Seven-day trial activation](images/mac-trial.png)
 
 ## Make it yours
 
@@ -35,6 +44,6 @@ Use [private vulnerability reporting](https://github.com/wakeupbrk/TapDeck-Downl
 
 This repository contains only downloads, screenshots and instructions. App development source is private and is not uploaded here. GitHub's automatic source ZIP contains only this repository's documentation and images.
 
-The already-published 0.2.0 preview retains its [original MIT license](LICENSE-MIT-preview.txt). Future paid versions may have different terms, supplied with those versions. Payment and activation have not been implemented yet. Restricting source access does not withdraw prior MIT permissions or prevent every form of reverse engineering.
+The 0.3.0 preview is supplied under the [seven-day trial notice](LICENSE-TRIAL.txt). Earlier MIT material keeps its [original permissions](LICENSE-MIT-preview.txt). The old unrestricted preview is no longer offered in public Releases. Previously downloaded copies cannot be recalled or retroactively restricted. Payment and paid licensing are future work. Compiled software is not immune to reverse engineering or deliberate tampering.
 
 Verify the DMG with the SHA256SUMS.txt asset in the release. Do not substitute an unofficial download.

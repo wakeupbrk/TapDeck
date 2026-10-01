@@ -1,0 +1,10 @@
+TapDeck 0.3.0 Preview — Trial Use Notice
+Copyright (c) 2026 Amar Benini. All rights reserved in new proprietary material.
+
+You may install and use the unmodified TapDeck 0.3.0 preview for one seven-day trial per Mac. The trial starts on its first activation with the TapDeck service. Deleting local files, reinstalling or redownloading does not create another trial. The preview requires internet access to verify trial status. After expiry, app controls are locked; saved decks remain available for export.
+
+This trial does not include a paid license or a promise that a paid version will become available. New proprietary material is not licensed for copying, modification, redistribution, sublicensing or sale without separate written permission, except as required by applicable law. No application development source is supplied with this download.
+
+The previously published 0.2.0 preview and material already released under MIT retain their original permissions. Third-party components retain their own licenses. This notice does not restrict those earlier permissions or third-party licenses. The original MIT notice is supplied separately for previously MIT-released material included in the app.
+
+This is an experimental preview supplied without warranty, to the extent permitted by applicable law. It is ad hoc signed and has not been notarized. Customer terms for a future paid production release will be provided separately.
