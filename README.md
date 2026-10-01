@@ -4,7 +4,7 @@
 
 A native Mac app with a large control deck in your phone's browser. Scan the Mac's QR, approve the browser once, then return to the same saved controller to reconnect.
 
-[Download the 7-day Mac trial](https://github.com/wakeupbrk/TapDeck-Downloads/releases/tag/v0.3.2-security.1) · [Browser controller](https://tapdeck-connect.pages.dev)
+[Download the 7-day Mac trial](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.2-security.1) · [Browser controller](https://tapdeck-connect.pages.dev)
 
 ![TapDeck on Mac](images/mac-deck.png)
 
@@ -42,7 +42,7 @@ The starter deck includes Finder, Safari, Notes, Calendar, Mail, Music, Reminder
 
 A new browser requires an expiring invitation and local Mac approval. Messages use authenticated encryption. Revoke browsers in Mac settings when needed. Do not share pairing QR codes or invitation URLs. No analytics SDK is included; the Cloudflare hosting provider processes connection metadata. No claim of zero vulnerabilities is made.
 
-Use [private vulnerability reporting](https://github.com/wakeupbrk/TapDeck-Downloads/security/advisories/new) for security issues. Never include active pairing credentials or private deck data in public issues.
+Use [private vulnerability reporting](https://github.com/wakeupbrk/TapDeck/security/advisories/new) for security issues. Never include active pairing credentials or private deck data in public issues.
 
 ## Downloads and licensing
 
