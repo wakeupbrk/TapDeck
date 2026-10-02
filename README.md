@@ -1,53 +1,79 @@
+<div align="center">
+
+<img src="images/tapdeck-icon.png" alt="TapDeck app icon" width="96" />
+
 # TapDeck
 
-**Your Mac. One tap away.**
+### Your Mac. One tap away.
 
-A native Mac app with a large control deck in your phone's browser. Scan the Mac's QR, approve the browser once, then return to the same saved controller to reconnect.
+Apps, websites and shortcuts on a control deck in your phone’s browser.<br>
+Create on your Mac. Scan a QR. Approve once. Tap from your phone.
 
-[Download the 7-day Mac trial](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.2-security.1) · [Browser controller](https://tapdeck-connect.pages.dev)
+**macOS 14+ · Apple silicon & Intel · No phone app required**
 
-![TapDeck on Mac](images/mac-deck.png)
+**[Download Mac preview ↓](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.2-security.1/TapDeck-0.3.2-Mac.dmg)**<br>
+[Release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.2-security.1) · [Get started](docs/GETTING-STARTED.md) · [Get help](SUPPORT.md) · [Roadmap](docs/ROADMAP.md)
 
-## Install the preview
+<img src="images/browser-landscape.png" alt="TapDeck phone controller in landscape, showing eight large app buttons and a compact menu" width="852" />
 
-1. Download **TapDeck-0.3.2-Mac.dmg** from Releases.
-2. Open it and drag TapDeck to Applications. Keep one installed copy.
-3. Open TapDeck and choose **Start or resume 7-day trial**.
-4. Choose the phone button and scan its QR with your phone's Camera.
-5. Open the link and approve the browser on your Mac. Optionally add the page to your Home Screen.
+</div>
 
-Both devices need internet access. The Mac must be awake with TapDeck running. macOS 14 or newer is required; Apple silicon and Intel are supported. No phone app, account registration or domain purchase is needed. Opening the bare controller address explains pairing; use the Mac's QR to connect.
+> [!IMPORTANT]
+> **0.3.2 is a seven-day preview.** The Mac app is ad hoc signed and unnotarized, so Gatekeeper may block it. Signing, notarization and remaining device acceptance checks are still ahead. Paid licenses are not available.
 
-**Preview status:** this build is ad hoc signed and is not Apple Developer ID signed or notarized. Gatekeeper may block it. It is offered for testing, not as a finished paid product. Physical iPhone Safari/Home Screen acceptance testing also remains before production launch.
+## Start in three steps
 
-## Upgrade to 0.3.2
+1. **Install on your Mac.** Open the DMG, drag TapDeck to Applications and open it. Choose **Start or resume 7-day trial**.
+2. **Connect your phone.** Choose the phone button in TapDeck, scan its QR with your phone’s Camera and approve the browser on your Mac.
+3. **Make it yours.** Use **Customize** on the Mac to add apps, websites, files, keyboard commands and Apple Shortcuts. Optionally add the controller to your phone’s Home Screen.
 
-Install the 0.3.2 Mac preview and refresh your phone browser or Home Screen controller. Older Mac builds cannot reconnect to the updated relay. Saved pairing credentials and the original seven-day trial expiry are preserved. This security update prevents deleted controls from authorizing remote actions and verifies relay credentials before allocating connections.
+Both devices need internet access. Keep your Mac awake with TapDeck running. The phone uses its browser; there is no account to register or phone app to install. The [full setup guide](docs/GETTING-STARTED.md) covers installation, pairing and upgrades.
+
+> Upgrading? Install **0.3.2** and refresh your phone controller. Older Mac builds cannot reconnect to the updated relay. Saved pairing and the original trial expiry are retained.
+
+## Build your everyday controls
+
+| On your Mac | On your phone |
+| --- | --- |
+| Choose actions, icons, colors, decks and pages | Tap large icon buttons on fixed pages |
+| Launch apps, open websites/files, run keyboard commands and Shortcuts | Reconnect with your saved pairing while the Mac is online |
+| Arrange simple macros and export your deck with artwork | Switch decks and pages from a compact menu |
+| Approve new browsers and revoke their access | Use Safari or a browser with WebCrypto and WebSocket support |
+
+Keyboard controls need Accessibility permission on the Mac. Physical iPhone Safari/Home Screen acceptance remains on the release checklist.
+
+<details>
+<summary><strong>See the Mac app</strong></summary>
+
+![TapDeck Mac app with its generic starter deck](images/mac-deck.png)
+
+The starter includes Finder, Safari, Notes, Calendar, Mail, Music, Reminders and Settings. Upcoming editor improvements are [planned on the roadmap](docs/ROADMAP.md); the current preview uses Customize.
+
+</details>
+
+## Find your way
+
+| Looking for… | Go here |
+| --- | --- |
+| Installation, pairing and upgrading | [Getting started](docs/GETTING-STARTED.md) |
+| A connection, permission or download problem | [Troubleshooting](docs/TROUBLESHOOTING.md) |
+| Trial rules, requirements or release assets explained | [Frequently asked questions](docs/FAQ.md) |
+| Changes in each preview | [Changelog](docs/CHANGELOG.md) |
+| Upcoming features and priorities | [Roadmap](docs/ROADMAP.md) |
+| A bug report or feature idea | [Support](SUPPORT.md) |
+| A security concern | [Private reporting](SECURITY.md) |
+| Data handling and usage terms | [Privacy](PRIVACY.md) · [Trial notice](LICENSE-TRIAL.txt) |
 
 ## Seven days, one Mac
 
-The trial starts when you first activate it, not when you download it. It lasts seven consecutive days. Deleting the app, redownloading, reinstalling or clearing local data on the same Mac does not restart it. After expiry, pairing and controls lock; your saved deck remains available to export. A paid version is not available yet.
+Your trial begins at activation, not download. Reinstalling or clearing local data on the same Mac does not restart it. After expiry, controls lock and your saved deck remains exportable.
 
-Before activation, TapDeck asks permission to send an app-specific hash derived from your Mac’s hardware UUID. The raw hardware UUID is never sent. Our service retains that hash and the original activation/expiry timestamps indefinitely to prevent trial resets. Internet access is required throughout the trial; verification failures lock controls. See [Privacy](PRIVACY.md).
+Before activation, TapDeck asks to send an app-specific hash derived from your Mac’s hardware UUID. The raw UUID is never sent. The service retains the hash and original activation/expiry timestamps indefinitely to prevent trial resets. Trial verification needs internet access. [Read the privacy details](PRIVACY.md).
 
-![Seven-day trial activation](images/mac-trial.png)
+## About this repository
 
-## Make it yours
+This is TapDeck’s **public downloads and support hub**. It contains documentation, screenshots and compiled release assets. App development source is private.
 
-The starter deck includes Finder, Safari, Notes, Calendar, Mail, Music, Reminders and Settings. Customize apps, websites, keyboard commands, Shortcuts, icons, colors and pages from the Mac. The phone shows fixed pages of large icon buttons with a compact side menu. Keyboard actions need Accessibility permission on the Mac.
+GitHub automatically labels its repository archives “Source code”; here those archives contain public documentation and images. **Install the `.dmg` to get the app.** The checksum file verifies that your download matches the published build. [Release assets explained](docs/FAQ.md#which-release-file-should-i-download).
 
-![Phone browser in landscape](images/browser-landscape.png)
-
-## Security and privacy
-
-A new browser requires an expiring invitation and local Mac approval. Messages use authenticated encryption. Revoke browsers in Mac settings when needed. Do not share pairing QR codes or invitation URLs. No analytics SDK is included; the Cloudflare hosting provider processes connection metadata. No claim of zero vulnerabilities is made.
-
-Use [private vulnerability reporting](https://github.com/wakeupbrk/TapDeck/security/advisories/new) for security issues. Never include active pairing credentials or private deck data in public issues.
-
-## Downloads and licensing
-
-This repository contains only downloads, screenshots and instructions. App development source is private and is not uploaded here. GitHub's automatic source ZIP contains only this repository's documentation and images.
-
-The 0.3.2 preview is supplied under the [proprietary seven-day trial notice](LICENSE-TRIAL.txt). Earlier license grants and third-party licenses are unaffected. The old unrestricted preview is no longer offered in public Releases. Previously downloaded copies cannot be recalled or retroactively restricted. Payment and paid licensing are future work. Compiled software is not immune to reverse engineering or deliberate tampering.
-
-Verify the DMG with the SHA256SUMS.txt asset in the release. Do not substitute an unofficial download.
+The preview uses the [proprietary trial notice](LICENSE-TRIAL.txt). Earlier license grants and third-party licenses are unaffected. See [how to contribute feedback and documentation](CONTRIBUTING.md).

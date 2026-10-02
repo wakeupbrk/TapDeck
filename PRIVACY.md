@@ -6,4 +6,4 @@ The phone browser stores its pairing credential locally to reconnect. Clearing b
 
 A Mac or browser you unlock, software running on that device, and the hosting/deployment account are trusted parts of the system. Revoke browsers in Mac settings when needed. Never share a pairing QR or active invitation.
 
-For privacy questions, use the repository’s discussions/issues without posting device identifiers, credentials or personal deck data. Security reports belong in private vulnerability reporting. This is an experimental preview; future paid products will provide their own terms.
+For privacy questions, use the repository’s [question form](https://github.com/wakeupbrk/TapDeck/issues/new?template=question.yml) without posting device identifiers, credentials or personal deck data. Security reports belong in private vulnerability reporting. This is an experimental preview; future paid products will provide their own terms.

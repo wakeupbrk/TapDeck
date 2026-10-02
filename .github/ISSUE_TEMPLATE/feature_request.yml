@@ -1,0 +1,40 @@
+name: Feature request
+description: Explain a workflow you want TapDeck to improve.
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the public roadmap and existing issues first. Describe one idea per issue. Planned features have no promised release date. Do not include private deck data or credentials.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to accomplish?
+      description: Explain the task and what feels awkward today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your suggested improvement
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of TapDeck?
+      options:
+        - Mac creation and editing
+        - Phone browser controls
+        - Pairing and connection
+        - Installation and updates
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or other approaches
+      description: Optional, using generic examples.
