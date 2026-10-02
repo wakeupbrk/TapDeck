@@ -1,6 +1,6 @@
 # Get help with TapDeck
 
-[← TapDeck](README.md) · [Setup](docs/GETTING-STARTED.md) · [Troubleshooting](docs/TROUBLESHOOTING.md) · [FAQ](docs/FAQ.md)
+[← TapDeck](README.md) · [Wiki help center](https://github.com/wakeupbrk/TapDeck/wiki) · [Setup](docs/GETTING-STARTED.md) · [Troubleshooting](docs/TROUBLESHOOTING.md) · [FAQ](docs/FAQ.md)
 
 | You need… | Best place |
 | --- | --- |

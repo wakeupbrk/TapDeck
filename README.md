@@ -12,7 +12,7 @@ Create on your Mac. Scan a QR. Approve once. Tap from your phone.
 **macOS 14+ · Apple silicon & Intel · No phone app required**
 
 **[Download Mac preview ↓](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.2-security.1/TapDeck-0.3.2-Mac.dmg)**<br>
-[Release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.2-security.1) · [Get started](docs/GETTING-STARTED.md) · [Get help](SUPPORT.md) · [Roadmap](docs/ROADMAP.md)
+[Wiki help center](https://github.com/wakeupbrk/TapDeck/wiki) · [Release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.2-security.1) · [Get started](docs/GETTING-STARTED.md) · [Get help](SUPPORT.md) · [Roadmap](docs/ROADMAP.md)
 
 <img src="images/browser-landscape.png" alt="TapDeck phone controller in landscape, showing eight large app buttons and a compact menu" width="852" />
 
@@ -55,6 +55,7 @@ The starter includes Finder, Safari, Notes, Calendar, Mail, Music, Reminders and
 
 | Looking for… | Go here |
 | --- | --- |
+| All guides in one place | [Wiki help center](https://github.com/wakeupbrk/TapDeck/wiki) |
 | Installation, pairing and upgrading | [Getting started](docs/GETTING-STARTED.md) |
 | A connection, permission or download problem | [Troubleshooting](docs/TROUBLESHOOTING.md) |
 | Trial rules, requirements or release assets explained | [Frequently asked questions](docs/FAQ.md) |
