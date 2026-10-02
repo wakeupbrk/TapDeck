@@ -2,6 +2,17 @@
 
 [← TapDeck](../README.md) · [Download releases](https://github.com/wakeupbrk/TapDeck/releases) · [Roadmap](ROADMAP.md)
 
+## 0.3.3 — Mac editor
+
+[Download and release details](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.3)
+
+- The Mac app edits directly. Click a button to select it, keep the inspector beside the deck, and use Test to run it.
+- Drop an application onto the deck to add a button. A website drop does not add a button. Websites stay on Add.
+- Right-click a deck to modify or delete it. The last deck cannot be deleted.
+- Check for Updates is in the app menu and Settings. The download button opens only this repository’s releases. The hosted controller does not publish that catalog yet, so a check does not mark this preview out of date.
+
+**Upgrade:** install the 0.3.3 Mac preview. A 0.3.2 app still connects. Builds older than 0.3.2 cannot reconnect. Saved pairing and original seven-day trial timestamps remain compatible.
+
 ## 0.3.2 — security preview
 
 [Download and release details](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.2-security.1)

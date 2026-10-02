@@ -4,18 +4,23 @@
 
 Our direction: **create on the Mac, control from the phone**. The Mac should be a comfortable workspace for building controls; the phone should stay a simple browser deck with large buttons and fixed pages.
 
-These are planned areas, not released features or promised dates. Priorities can change with feedback and testing.
+These are planned areas, not promised dates. Priorities can change with feedback and testing. Shipped work is listed in the [changelog](CHANGELOG.md).
+
+## Shipped in 0.3.3
+
+- Click a button to select it. The inspector stays open, and Test runs the action.
+- Drop an application onto the deck to add a button. Website drops are not included.
+- The Mac app can check for an available or required update and opens only the official TapDeck release page.
 
 ## Next focus: a better Mac workspace
 
-- **Direct creation:** drop apps and website links into the workspace without entering Customize.
-- **Editing first:** click to select/edit, use a persistent inspector and run actions through an explicit Test control.
+- **Direct creation:** drop website links into the workspace the same way applications drop in today.
 - **Faster organization:** search, keyboard shortcuts, multi-select and batch moves.
 - **Phone preview:** see portrait and landscape layouts while editing on the Mac.
 
 ## Reliability and release readiness
 
-- Available-update and required-update messages with an official download button.
+- Publish the update catalog from the hosted controller so installed 0.3.3 apps can see a newer release. The Mac check already exists.
 - Clear connection troubleshooting and action-readiness feedback.
 - Local deck history, safer restore and an import review before replacing data.
 - Security reviews of new input paths and continued dependency maintenance.

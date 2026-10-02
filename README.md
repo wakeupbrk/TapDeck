@@ -11,25 +11,25 @@ Create on your Mac. Scan a QR. Approve once. Tap from your phone.
 
 **macOS 14+ · Apple silicon & Intel · No phone app required**
 
-**[Download Mac preview ↓](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.2-security.1/TapDeck-0.3.2-Mac.dmg)**<br>
-[Wiki help center](https://github.com/wakeupbrk/TapDeck/wiki) · [Release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.2-security.1) · [Get started](docs/GETTING-STARTED.md) · [Get help](SUPPORT.md) · [Roadmap](docs/ROADMAP.md)
+**[Download Mac preview ↓](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.3/TapDeck-0.3.3-Mac.dmg)**<br>
+[Wiki help center](https://github.com/wakeupbrk/TapDeck/wiki) · [Release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.3) · [Get started](docs/GETTING-STARTED.md) · [Get help](SUPPORT.md) · [Roadmap](docs/ROADMAP.md)
 
 <img src="images/browser-landscape.png" alt="TapDeck phone controller in landscape, showing eight large app buttons and a compact menu" width="852" />
 
 </div>
 
 > [!IMPORTANT]
-> **0.3.2 is a seven-day preview.** The Mac app is ad hoc signed and unnotarized, so Gatekeeper may block it. Signing, notarization and remaining device acceptance checks are still ahead. Paid licenses are not available.
+> **0.3.3 is a seven-day preview.** The Mac app is ad hoc signed and unnotarized, so Gatekeeper may block it. Signing, notarization and remaining device acceptance checks are still ahead. Paid licenses are not available.
 
 ## Start in three steps
 
 1. **Install on your Mac.** Open the DMG, drag TapDeck to Applications and open it. Choose **Start or resume 7-day trial**.
 2. **Connect your phone.** Choose the phone button in TapDeck, scan its QR with your phone’s Camera and approve the browser on your Mac.
-3. **Make it yours.** Use **Customize** on the Mac to add apps, websites, files, keyboard commands and Apple Shortcuts. Optionally add the controller to your phone’s Home Screen.
+3. **Make it yours.** Click a button to edit it. **Test** runs it on your Mac. Use **Add** for an app, website, file, keyboard command, or Shortcut, or drop an app onto the deck. Optionally add the controller to your phone’s Home Screen.
 
 Both devices need internet access. Keep your Mac awake with TapDeck running. The phone uses its browser; there is no account to register or phone app to install. The [full setup guide](docs/GETTING-STARTED.md) covers installation, pairing and upgrades.
 
-> Upgrading? Install **0.3.2** and refresh your phone controller. Older Mac builds cannot reconnect to the updated relay. Saved pairing and the original trial expiry are retained.
+> Upgrading? Install **0.3.3** and replace the app in Applications. A 0.3.2 Mac app still connects. Builds older than 0.3.2 cannot reconnect. Saved pairing and the original trial expiry are retained.
 
 ## Build your everyday controls
 
@@ -47,7 +47,7 @@ Keyboard controls need Accessibility permission on the Mac. Physical iPhone Safa
 
 ![TapDeck Mac app with its generic starter deck](images/mac-deck.png)
 
-The starter includes Finder, Safari, Notes, Calendar, Mail, Music, Reminders and Settings. Upcoming editor improvements are [planned on the roadmap](docs/ROADMAP.md); the current preview uses Customize.
+The starter includes Finder, Safari, Notes, Calendar, Mail, Music, Reminders and Settings. Click a button to select it, then use Test to run it. Drop an app onto the deck to add it. More workspace ideas are [on the roadmap](docs/ROADMAP.md).
 
 </details>
 

@@ -1,7 +1,7 @@
-TapDeck 0.3.2 Preview — Trial Use Notice
+TapDeck 0.3.3 Preview — Trial Use Notice
 Copyright (c) 2026 Amar Benini. All rights reserved.
 
-You may install and use the unmodified TapDeck 0.3.2 preview for one seven-day trial per Mac. The trial starts on its first activation with the TapDeck service. Deleting local files, reinstalling or redownloading does not create another trial. The preview requires internet access to verify trial status. After expiry, app controls are locked; saved decks remain available for export.
+You may install and use the unmodified TapDeck 0.3.3 preview for one seven-day trial per Mac. The trial starts on its first activation with the TapDeck service. Deleting local files, reinstalling or redownloading does not create another trial. The preview requires internet access to verify trial status. After expiry, app controls are locked; saved decks remain available for export.
 
 This trial does not include a paid license or a promise that a paid version will become available. TapDeck is not licensed for copying, modification, redistribution, sublicensing or sale without separate written permission, except as required by applicable law. No application development source is supplied with this download.
 

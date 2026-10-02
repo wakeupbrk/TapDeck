@@ -12,7 +12,7 @@
 
 ## Before reporting a bug
 
-Use the current **0.3.2** Mac preview and refresh the phone controller. Check the troubleshooting guide, then [search existing issues](https://github.com/wakeupbrk/TapDeck/issues) for the same problem.
+Use the current **0.3.3** Mac preview. A 0.3.2 app still connects; refresh the phone controller after a relay change. Check the troubleshooting guide, then [search existing issues](https://github.com/wakeupbrk/TapDeck/issues) for the same problem.
 
 Include the app/macOS version, phone/browser version, what you expected and a short set of reproduction steps. Share only screenshots or diagnostics you have checked for personal information.
 
