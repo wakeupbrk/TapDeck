@@ -1,0 +1,21 @@
+name: Usage or privacy question
+description: Ask something the setup guide or FAQ does not answer.
+title: "[Question] "
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public question. Do not include hardware hashes, pairing URLs, QR codes, credentials or personal decks. For security vulnerabilities, use private reporting.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Tell us which guide you checked and what remains unclear.
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Relevant app, macOS or browser version
+      description: Optional. No device identifiers needed.

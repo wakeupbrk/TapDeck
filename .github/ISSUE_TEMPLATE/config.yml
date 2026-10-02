@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation and connection help
+    url: https://github.com/wakeupbrk/TapDeck/blob/main/docs/TROUBLESHOOTING.md
+    about: Check common installation, pairing, trial and permission problems first.
+  - name: Report a security vulnerability privately
+    url: https://github.com/wakeupbrk/TapDeck/security/advisories/new
+    about: Keep vulnerability details and sensitive data out of public issues.
