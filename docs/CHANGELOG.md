@@ -2,6 +2,20 @@
 
 [← TapDeck](../README.md) · [Download releases](https://github.com/wakeupbrk/TapDeck/releases) · [Roadmap](ROADMAP.md)
 
+## 0.3.4 — smoother editor and deck recovery
+
+[Download and release details](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.4)
+
+- Drag the actual button while neighbours adjust, with no leftover drag copy. Release saves one reorder and one Undo step.
+- Review imports before replacement; back up the current deck and referenced artwork before import or restore. Deck History offers local recovery after restart.
+- Clearer editor hierarchy, selection marker, action inspector and accessibility controls; separate label settings for the Mac and phone.
+- Phone navigation opens the configured destination page, including overflow layouts. Phone labels and icon-picker choices now render correctly.
+- The live controller publishes update notices for available Mac downloads.
+- Local verification passed 43 core tests, 23 Web/Worker tests, native builds and isolated trial, action, recovery, reorder and encrypted relay checks. The user confirmed pairing, navigation, smooth dragging/rotation, refresh/reconnect and immediate phone updates after Mac reordering.
+- Hosted private-source CI was unavailable at packaging time. This requested preview was built from the locally verified review branch; the source PR remains open.
+
+**Upgrade:** quit TapDeck, install 0.3.4 and replace the app in Applications. Refresh Safari/Home Screen tabs. Existing pairing and original trial expiry are retained; 0.3.2 and newer Mac builds remain compatible.
+
 ## 0.3.3 — Mac editor
 
 [Download and release details](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.3)

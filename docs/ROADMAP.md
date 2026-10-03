@@ -6,6 +6,13 @@ Our direction: **create on the Mac, control from the phone**. The Mac should be 
 
 These are planned areas, not promised dates. Priorities can change with feedback and testing. Shipped work is listed in the [changelog](CHANGELOG.md).
 
+## Shipped in 0.3.4
+
+- Smooth live drag reordering with one Undo step.
+- Import review, backup before replacement/restore and local deck history.
+- Clearer editor selection, controls and accessibility alternatives.
+- Published update catalog and phone destination-page, label and icon fixes.
+
 ## Shipped in 0.3.3
 
 - Click a button to select it. The inspector stays open, and Test runs the action.
@@ -20,9 +27,8 @@ These are planned areas, not promised dates. Priorities can change with feedback
 
 ## Reliability and release readiness
 
-- Publish the update catalog from the hosted controller so installed 0.3.3 apps can see a newer release. The Mac check already exists.
 - Clear connection troubleshooting and action-readiness feedback.
-- Local deck history, safer restore and an import review before replacing data.
+- Deck history location/retention preferences, backup management and import merging.
 - Security reviews of new input paths and continued dependency maintenance.
 - Keyboard/VoiceOver and physical Safari/Home Screen acceptance checks.
 - Developer ID signing, notarization and a repeatable coordinated release process.

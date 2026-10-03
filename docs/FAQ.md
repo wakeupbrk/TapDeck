@@ -6,9 +6,10 @@
 
 | File | Purpose |
 | --- | --- |
-| **TapDeck-0.3.3-Mac.dmg** | The Mac app installer. Download this to use TapDeck. |
+| **TapDeck-0.3.4-Mac.dmg** | The Mac app installer. Download this to use TapDeck. |
 | **SHA256SUMS.txt** | The installer’s SHA-256 fingerprint. Use it to check your downloaded file matches the published build. |
 | **LICENSE-TRIAL.txt** | The preview’s usage terms, in plain text. |
+| **THIRD-PARTY-NOTICES.txt** | Applicable browser-library notices. |
 | **Source code (zip / tar.gz)** | GitHub’s automatic archives of this public repository. They contain documentation and images, not the private app development source. Both formats contain the same repository files. |
 
 A `.txt` file is a text document; it does not install the app. [How to verify the checksum](TROUBLESHOOTING.md#verify-the-download).
@@ -35,7 +36,7 @@ Not yet. Pricing, payments and paid activation remain future work. The current d
 
 ## Why do older Mac versions fail to reconnect?
 
-The 0.3.2 security update authenticates a connection before allocating a WebSocket. Builds older than 0.3.2 use the retired handshake. Install the current Mac preview and refresh the phone controller; saved pairing and original trial expiry are retained. The 0.3.3 editor update does not retire a 0.3.2 Mac app.
+The 0.3.2 security update authenticates a connection before allocating a WebSocket. Builds older than 0.3.2 use the retired handshake. Install the current Mac preview and refresh the phone controller; saved pairing and original trial expiry are retained. The 0.3.4 editor update does not retire a 0.3.2 Mac app.
 
 ## Can I drag apps straight into the Mac app?
 
