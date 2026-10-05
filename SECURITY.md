@@ -10,7 +10,7 @@ Do not post active QR invitations, pairing secrets, personal decks, hardware ide
 
 ## Current preview
 
-Use the **0.3.4** Mac preview with the hosted controller. A 0.3.2 Mac app still connects. Builds earlier than 0.3.2 cannot reconnect after the security handshake update. The [changelog](docs/CHANGELOG.md) describes the fixes and upgrade steps.
+Use the **0.3.7** Mac preview with the hosted controller. A 0.3.2 Mac app still connects. Builds earlier than 0.3.2 cannot reconnect after the security handshake update. The [changelog](docs/CHANGELOG.md) describes the fixes and upgrade steps.
 
 New browsers require local Mac approval; approved messages use authenticated encryption, replay rejection and revocation. The Mac owns executable definitions and the phone requests configured action IDs. These controls have limitations: endpoint devices and the hosting/deployment account remain trusted.
 

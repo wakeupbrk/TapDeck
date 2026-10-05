@@ -6,6 +6,11 @@ Our direction: **create on the Mac, control from the phone**. The Mac should be 
 
 These are planned areas, not promised dates. Priorities can change with feedback and testing. Shipped work is listed in the [changelog](CHANGELOG.md).
 
+## Shipped in 0.3.7
+
+- Live application window controls with gray/red/green status and Finder opening fallback.
+- Steady phone tiles and connection-race, network-notification and foreground-recovery fixes.
+
 ## Shipped in 0.3.4
 
 - Smooth live drag reordering with one Undo step.
