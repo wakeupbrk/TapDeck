@@ -6,7 +6,7 @@
 
 | Symptom | First check |
 | --- | --- |
-| Phone keeps reconnecting | Install Mac 0.3.2 or 0.3.4, refresh the phone page, keep the Mac awake and check internet access |
+| Phone keeps reconnecting | Install Mac 0.3.7, refresh the phone page, keep the Mac awake and check internet access |
 | QR will not pair | Generate a fresh invitation and approve the browser on the Mac |
 | Keyboard control does nothing | Check the target app and Mac Accessibility permission |
 | Controls are locked | Check trial status and internet access; original expiry survives reinstalling |
@@ -14,7 +14,7 @@
 
 ## macOS blocks the app
 
-The preview is ad hoc signed and **not notarized**. macOS may block it. Confirm that you downloaded it from the [official release](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.4) and verify the checksum below. A checksum confirms the file matches the published build; it does not make an app notarized or prove that it is safe.
+The preview is ad hoc signed and **not notarized**. macOS may block it. Confirm that you downloaded it from the [official release](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.7) and verify the checksum below. A checksum confirms the file matches the published build; it does not make an app notarized or prove that it is safe.
 
 Keep macOS security protections enabled. If you cannot install the preview comfortably, wait for a Developer ID signed, notarized release. Include the exact macOS message in a bug report, with personal information removed.
 
@@ -26,17 +26,17 @@ Download `SHA256SUMS.txt` and the DMG from the same release. Put them in the sam
 shasum -a 256 -c SHA256SUMS.txt
 ```
 
-The expected result is `TapDeck-0.3.4-Mac.dmg: OK`. If the files were renamed by your browser, restore the names used in the checksum file first. A mismatch means the file does not match; download a fresh copy from the official release before installing.
+The expected result is `TapDeck-0.3.7-Mac.dmg: OK`. If the files were renamed by your browser, restore the names used in the checksum file first. A mismatch means the file does not match; download a fresh copy from the official release before installing.
 
 ## The phone stays disconnected
 
 1. Check that your Mac is awake, TapDeck is running and remote control is not paused.
 2. Check internet access on both devices and your Mac trial status.
-3. Make sure the Mac app is **0.3.2 or 0.3.4**. The current download is 0.3.4. Refresh the browser or Home Screen controller after a relay upgrade. Refresh the phone controller to load the matching navigation, label and icon improvements.
+3. Install Mac **0.3.7** and refresh the browser or Home Screen controller to load the connection fixes and application status colors. Older supported builds connect but do not contain all these fixes.
 4. Reopen the same saved controller. Switching browsers, private browsing and cleared browser storage may require a new pairing.
 5. If the pairing was revoked or the invitation expired, generate a fresh QR and approve it on the Mac.
 
-Avoid clearing pairing as the first troubleshooting step. Saved pairing and original trial expiry are retained when upgrading normally.
+Avoid clearing pairing as the first troubleshooting step. The preview’s signing change may require re-pairing after an update; your original trial expiry is retained.
 
 ## A QR expires or the bare website shows instructions
 

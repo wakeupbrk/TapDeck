@@ -8,11 +8,11 @@
 - A phone browser with WebCrypto and WebSocket support. Safari and Chromium are the intended targets; basic iPhone pairing, navigation, refresh/reconnect and rotation were reported successful; additional device and accessibility checks remain.
 - Internet access on both devices. They do not need the same Wi-Fi network.
 
-The current release is **0.3.4**, an ad hoc signed, unnotarized preview. Review the [release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.4), [trial notice](../LICENSE-TRIAL.txt) and [privacy information](../PRIVACY.md) before activation.
+The current release is **0.3.7**, an ad hoc signed, unnotarized preview. Review the [release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.7), [trial notice](../LICENSE-TRIAL.txt) and [privacy information](../PRIVACY.md) before activation.
 
 ## 1. Install the Mac app
 
-1. Download [TapDeck-0.3.4-Mac.dmg](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.4/TapDeck-0.3.4-Mac.dmg).
+1. Download [TapDeck-0.3.7-Mac.dmg](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.7/TapDeck-0.3.7-Mac.dmg).
 2. Open the disk image and drag TapDeck into Applications. Keep one installed copy.
 3. Open TapDeck. If macOS blocks it, consult [installation troubleshooting](TROUBLESHOOTING.md#macos-blocks-the-app).
 4. Choose **Start or resume 7-day trial**. Activation asks for consent before sending the app-specific hardware hash. Declining leaves controls locked.
@@ -35,7 +35,11 @@ The hosted controller is [tapdeck-connect.pages.dev](https://tapdeck-connect.pag
 
 Click a button to select it. The inspector stays beside the deck, and **Test** runs the selected action. Drag buttons to reorder them, or drop an application onto the deck to add one. **Add** still creates apps, websites, files/folders, keyboard commands, Apple Shortcuts, or simple macros. Change names, icons, colors, and pages from the Mac. Extra controls belong on another fixed page. Right-click a deck in the left list to modify or delete it.
 
-Use the explicit test control when checking an action. Keyboard commands require Accessibility permission on the Mac; ordinary app and website actions do not. The phone requests configured action IDs and cannot edit your document.
+Use the explicit test control when checking an action. Keyboard commands and phone application window controls require Accessibility permission on the Mac; ordinary Mac launching and website actions do not. The phone requests configured action IDs and cannot edit your document.
+
+## Application window controls
+
+Enable TapDeck in **System Settings → Privacy & Security → Accessibility**. Closed apps have a neutral gray outline; minimized windows are red; visible windows are green. Tap an application button to open, minimize or restore it. Manual window changes on the Mac update the phone. Finder opens a home window when none exists and falls back to opening with a notice if macOS cannot control its windows. Website buttons keep ordinary opening behavior.
 
 ## Add the controller to your Home Screen
 
@@ -45,7 +49,7 @@ On Safari, use **Share → Add to Home Screen**. Open that saved controller whil
 
 Quit TapDeck, install the new DMG and replace the existing app in Applications. Open it again, then refresh your phone browser or Home Screen controller.
 
-**0.3.4 adds smoother organization and deck recovery.** A 0.3.2 app keeps working with the current controller. Builds older than 0.3.2 use the retired handshake and cannot reconnect. The upgrade preserves saved pairing credentials and the original trial timestamps; downloading again does not create a new trial.
+**0.3.7 adds live application window controls and fixes unnecessary reconnections.** A 0.3.2 app keeps working with the current controller. Builds older than 0.3.2 use the retired handshake and cannot reconnect. Your deck and original trial timestamps are preserved; downloading again does not create a new trial. This preview may require re-pairing and refreshing Accessibility permission after installation.
 
 ## Back up or disconnect
 
