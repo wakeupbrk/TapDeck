@@ -2,6 +2,17 @@
 
 [← TapDeck](../README.md) · [Download releases](https://github.com/wakeupbrk/TapDeck/releases) · [Roadmap](ROADMAP.md)
 
+## 0.3.7 — application windows and connection stability
+
+[Download and release details](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.7)
+
+- Phone application buttons track Mac windows: gray when closed, red when minimized, green when visible. Tap to open, minimize or restore; manual Mac changes synchronize.
+- Stable tiles during presses and color changes; Finder opens a window when only its Desktop exists and falls back to opening if window controls are unavailable.
+- Delayed failures from old connections no longer stop their replacements. Repeated available-network notifications no longer restart healthy sessions; returning to a stale phone connection starts recovery promptly.
+- Automated coverage includes connection races, sustained encrypted heartbeats, network recovery, restart, revocation and rejected keys. Further physical phone/Finder acceptance remains.
+
+**Upgrade:** quit TapDeck, replace the app in Applications, refresh the phone controller, and pair again if requested. Confirm Accessibility permission for keyboard/window controls. Your deck and original trial expiry remain. This is an ad hoc signed, unnotarized preview.
+
 ## 0.3.4 — smoother editor and deck recovery
 
 [Download and release details](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.4)

@@ -11,18 +11,18 @@ Create on your Mac. Scan a QR. Approve once. Tap from your phone.
 
 **macOS 14+ · Apple silicon & Intel · No phone app required**
 
-**[Download Mac preview ↓](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.4/TapDeck-0.3.4-Mac.dmg)**<br>
-[Wiki help center](https://github.com/wakeupbrk/TapDeck/wiki) · [Release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.4) · [Get started](docs/GETTING-STARTED.md) · [Get help](SUPPORT.md) · [Roadmap](docs/ROADMAP.md)
+**[Download Mac preview ↓](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.7/TapDeck-0.3.7-Mac.dmg)**<br>
+[Wiki help center](https://github.com/wakeupbrk/TapDeck/wiki) · [Release notes](https://github.com/wakeupbrk/TapDeck/releases/tag/v0.3.7) · [Get started](docs/GETTING-STARTED.md) · [Get help](SUPPORT.md) · [Roadmap](docs/ROADMAP.md)
 
 <img src="images/browser-landscape.png" alt="TapDeck phone controller in landscape, showing eight large app buttons and a compact menu" width="852" />
 
 </div>
 
 > [!IMPORTANT]
-> **0.3.4 is a seven-day preview.** The Mac app is ad hoc signed and unnotarized, so Gatekeeper may block it. Signing, notarization and remaining device acceptance checks are still ahead. Paid licenses are not available.
+> **0.3.7 is a seven-day preview.** The Mac app is ad hoc signed and unnotarized, so Gatekeeper may block it. Signing, notarization and remaining device acceptance checks are still ahead. Paid licenses are not available.
 
 > [!TIP]
-> **Using an older preview? Update to 0.3.4.** [Download the new Mac preview](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.4/TapDeck-0.3.4-Mac.dmg), quit TapDeck, and replace the app in Applications. Refresh Safari or your Home Screen controller afterward. Saved pairing and your original trial expiry are retained; upgrading does not start a new trial.
+> **Using an older preview? Update to 0.3.7.** [Download the new Mac preview](https://github.com/wakeupbrk/TapDeck/releases/download/v0.3.7/TapDeck-0.3.7-Mac.dmg), quit TapDeck, and replace the app in Applications. Refresh Safari or your Home Screen controller afterward. Your deck and original trial expiry are retained. This preview update may require pairing the phone again and refreshing Accessibility permission; upgrading does not start a new trial.
 
 ## Start in three steps
 
@@ -32,11 +32,11 @@ Create on your Mac. Scan a QR. Approve once. Tap from your phone.
 
 Both devices need internet access. Keep your Mac awake with TapDeck running. The phone uses its browser; there is no account to register or phone app to install. The [full setup guide](docs/GETTING-STARTED.md) covers installation, pairing and upgrades.
 
-> Upgrading? Install **0.3.4** and replace the app in Applications. A 0.3.2 Mac app still connects. Builds older than 0.3.2 cannot reconnect. Saved pairing and the original trial expiry are retained.
+> Upgrading? Install **0.3.7** and replace the app in Applications. A 0.3.2 Mac app still connects. Builds older than 0.3.2 cannot reconnect. Your deck and original trial expiry are retained. After a preview update, pair the phone again if requested and confirm TapDeck’s Accessibility permission.
 
-## What’s new in 0.3.4
+## What’s new in 0.3.7
 
-Buttons follow your pointer while their neighbours move into place. Reviewed imports and local deck history protect your current deck before replacement or restore. The editor has clearer selection and controls, and the phone respects configured destination pages, labels and icons.
+Application buttons show gray when closed, red when minimized and green when visible. Tap to open, minimize or restore. The controller stays steady during presses; Finder has an open-only fallback when its windows cannot be controlled. Connection fixes stop old sessions and repeated network notifications from interrupting healthy sessions, and recover promptly when returning to the phone page.
 
 ## Build your everyday controls
 
